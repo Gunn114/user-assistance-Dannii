@@ -1,0 +1,31 @@
+/etc/init.d/snmpd status
+/etc/init.d/snmpd start
+
+
+*/cd/dev*
+*cd mapper*
+sudo find /ftp/*-mintime +30 -typef-exec rm
+
+
+SELECT FROM master_dev.device_certificates
+WHERE did = 00000
+DELETE FROM master_dev.device_certificates
+
+
+curl localhost:9200/_cat/_indices | sort | less grep
+curl localhost:9200/index/type/document -XDELETE
+
+
+cd/..
+df -h
+ls -shl
+ls -lrh
+cd/etc/logrotate.d
+cat syslog
+
+
+/opt/opsview/watchdog/bin/opsview-monit -V
+/opt/opsview/coreutils/bin/opsview_watchdog
+$ opsview_watchdog summary
+# /opt/opsview/watchdog/bin/opsview-monit status
+# /opt/opsview/watchdog/bin/opsview-monit summary
